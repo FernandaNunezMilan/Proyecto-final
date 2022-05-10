@@ -233,3 +233,161 @@ header nav a.activo {
 		display: none;
 	}
 }
+
+/* --- --- CAROUSEL --- --- */
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__contenedor2 {
+	position: relative;
+}
+
+.carousel__contenedor3 {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+.carousel__anterior {
+	left: -30px;
+}
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__anterior2,
+.carousel__siguiente2 {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+.carousel__anterior2 {
+	left: -30px;
+}
+.carousel__siguiente2 {
+	right: -30px;
+}
+
+.carousel__anterior3,
+.carousel__siguiente3 {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+.carousel__anterior3 {
+	left: -30px;
+}
+.carousel__siguiente3 {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__lista2 {
+	overflow: hidden;
+}
+
+.carousel__anterior2:hover,
+.carousel__siguiente2:hover {
+	opacity: 100%;
+}
+
+.carousel__lista3 {
+	overflow: hidden;
+}
+
+.carousel__anterior3:hover,
+.carousel__siguiente3:hover {
+	opacity: 100%;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+
+.carousel__indicadores2 .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores2 .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores2 .glider-dot.active {
+	opacity: 1;
+}
+
+.carousel__indicadores3 .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores3 .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores3 .glider-dot.active {
+	opacity: 1;
+}
+

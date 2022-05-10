@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/estilos.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
-	<title>Tutoriales escolares</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+
+	<title>TutoPlus</title>
 </head>
+
 <body>
 	<header>
 		<div class="contenedor">
-			<h2 class="logotipo">Tutoriales escolares</h2>
+			<h2 class="logotipo">TutoPlus</h2>
 			<nav>
 				<a href="#" class="activo">Inicio</a>
 				<a href="#">Tutoriales</a>
@@ -27,14 +30,14 @@
 			<div class="contenedor">
 				<h3 class="titulo">Tutoriales escolares para niños</h3>
 				<p class="descripcion">
-					Información relacionada al tutorial recomendado.
+					Aprender más mediante videos especialmente seleccionados.
 				</p>
 				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
-				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+				<!-- <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button> -->
 			</div>
 		</div>
 
-		<div class="tutoriales-recomendados contenedor">
+		<!--<div class="tutoriales-recomendados contenedor">
 			<div class="contendor-titulo-controles">
 				<h3>Tutoriales recomendados</h3>
 				<div class="indicadores"></div>
@@ -84,11 +87,141 @@
 	
 				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
 			</div>
+		</div> -->
+
+		
+
+		<div class="contenedor">
+			<div class="contendor-titulo-controles">
+				<h3>Tutoriales recomendados</h3>
+				<div class="indicadores"></div>
+			</div>
+			<div class="carousel">
+				<div class="carousel__contenedor">
+					<button aria-label="Anterior" class="carousel__anterior">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+	
+					<div class="carousel__lista">
+						<div class="Matematicas">
+							<a href="#"><img src="img/Matemáticas.jpg" alt="imagen 1"></a>
+						</div>
+						<div class="ArtesVisuales">
+							<a href="#"><img src="img/Artes Visuales.jpg" alt="imagen 2"></a>
+						</div>
+						<div class="CienciasNaturales">
+							<a href="#"><img src="img/Ciencias naturales.jpg" alt="imagen 3"></a>
+						</div>
+						<div class="Espaniol">
+							<a href="#"><img src="img/Español.jpg" alt="imagen 4"></a>
+						</div>
+						<div class="Geografia">
+							<a href="#"><img src="img/Geografía.jpg" alt="imagen 5"></a>
+						</div>
+						<div class="Historia">
+							<a href="#"><img src="img/Historia.jpg" alt="imagen 6"></a>
+						</div>
+						<div class="Computacion">
+							<a href="#"><img src="img/Computación.jpg" alt="imagen 7"></a>
+						</div>
+					</div>
+	
+					<button aria-label="Siguiente" class="carousel__siguiente">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+	
+				<div role="tablist" class="carousel__indicadores"></div>
+			</div>
+		</div>
+		<br><br><br>
+
+		<div class="contenedor">
+			<div class="contendor-titulo-controles">
+				<h3>Cursos nivel preescolar</h3>
+				<div class="indicadores"></div>
+			</div>
+			<div class="carousel">
+				<div class="carousel__contenedor2">
+					<button aria-label="Anterior" class="carousel__anterior2">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+	
+					<div class="carousel__lista2">
+						<div class="Espaniol">
+							<a href="#"><img src="img/Español.jpg" alt="imagen 4"></a>
+						</div>
+						<div class="ArtesVisuales">
+							<a href="#"><img src="img/Artes Visuales.jpg" alt="imagen 2"></a>
+						</div>
+						<div class="Matematicas">
+							<a href="#"><img src="img/Matemáticas.jpg" alt="imagen 1"></a>
+						</div>
+						<div class="CienciasNaturales">
+							<a href="#"><img src="img/Ciencias naturales.jpg" alt="imagen 3"></a>
+						</div>
+					</div>
+	
+					<button aria-label="Siguiente" class="carousel__siguiente2">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+	
+				<div role="tablist" class="carousel__indicadores2"></div>
+			</div>
 		</div>
 
 
-	</main>
+		<div class="contenedor">
+			<div class="contendor-titulo-controles">
+				<h3>Cursos nivel primaria</h3>
+				<div class="indicadores"></div>
+			</div>
+			<div class="carousel">
+				<div class="carousel__contenedor3">
+					<button aria-label="Anterior" class="carousel__anterior3">
+						<i class="fas fa-chevron-left"></i>
+					</button>
 	
+					<div class="carousel__lista3">
+						<div class="Computacion">
+							<a href="#"><img src="img/Computación.jpg" alt="imagen 7"></a>
+						</div>
+						<div class="Geografia">
+							<a href="#"><img src="img/Geografía.jpg" alt="imagen 5"></a>
+						</div>
+						<div class="Historia">
+							<a href="#"><img src="img/Historia.jpg" alt="imagen 6"></a>
+						</div>
+						<div class="Matematicas">
+							<a href="#"><img src="img/Matemáticas.jpg" alt="imagen 1"></a>
+						</div>
+						<div class="ArtesVisuales">
+							<a href="#"><img src="img/Artes Visuales.jpg" alt="imagen 2"></a>
+						</div>
+						<div class="Espaniol">
+							<a href="#"><img src="img/Español.jpg" alt="imagen 4"></a>
+						</div>
+						<div class="CienciasNaturales">
+							<a href="#"><img src="img/Ciencias naturales.jpg" alt="imagen 3"></a>
+						</div>
+					</div>
+	
+					<button aria-label="Siguiente" class="carousel__siguiente3">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+	
+				<div role="tablist" class="carousel__indicadores3"></div>
+			</div>
+		</div>
+
+		<h3>Pie de pagina</h3>
+
+	</main>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
 </body>
