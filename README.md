@@ -1,29 +1,15 @@
-# Proyecto-Pi-ConVideos
-Nueva versión del proyecto
+# Proyecto final: "Tutoplus"
+Esta página que provee tutoriales educativos para niños buscando ser atractiva al tener un diseño basado en la plataforma Netflix.
+La página web es 100% responsiva para que se adapte tanto a monitores como a dispositivos móviles, además cuenta con su versión de escritorio.
 
-Diferente imagen de fondo.
+### Versión web: 
+https://fernandanunezmilan.github.io/ProyectoV3/pagina.html
 
-![image](https://user-images.githubusercontent.com/97979648/167462546-51072fd2-2307-4803-9a88-a9c6b306a95b.png)
+### Versión de escritorio: 
+Para desplegar la versión de escritorio es necesario descargar el archivo llamado "TutoPlus.zip" almacenado en el repositorio y extraerlo, luego abrir la carpeta generada donde se encuentra un acceso directo llamado "TutoPlus" y una carpeta de recursos, dar doble click sobre el acceso directo llamado "TutoPlus" para iniciar el programa.
 
+### Presentación del proyecto:
+La presentación está almacenada en el repositorio con el nombre de "Presentación Tutoplus.pptx".
 
-Imágenes con texto indicando la materia.
-
-![image](https://user-images.githubusercontent.com/97979648/167468580-79f82817-9e65-4d01-bd97-a0caf288fb8d.png)
-
-
-Cada una de las imágenes redirecciona a un video de YouTube.
-Aquí están las modificaciones del código. A cada imagen se le agregó un div con clase para definir los eventos.
-![image](https://user-images.githubusercontent.com/97979648/167463010-12f24d6f-f74c-4cc9-be43-3e7fb6d39211.png)
-
-Aquí se definieron las constantes en js:
-
-![image](https://user-images.githubusercontent.com/97979648/167463229-579f338d-ffa1-41a0-a11c-d53a28109a57.png)
-
-Aquí están los links que redireccionan a los videos cuando se le hace click en las imágenes:
-
-![image](https://user-images.githubusercontent.com/97979648/167463390-f861273c-6ab0-4904-9230-661e27182911.png)
-
-
-
-
-Fuente: https://www.youtube.com/watch?v=J04uNivXGHs
+### Reporte del proyecto:
+El reporte está almacenado en el repositorio con el nombre de "Reporte Tutoplus.pdf".
